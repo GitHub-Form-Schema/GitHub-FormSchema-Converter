@@ -10,7 +10,23 @@
     "type": "git",
     "url": "git+https://github.com/hsw1805/GitHub-FormSchema-Converter.git"
   },
-  "author": "hsw1805",
+  "keywords": [
+    "yaml",
+    "html",
+    "converter",
+    "GitHub",
+    "FormSchema",
+    "GitHub's Form Schema",
+    "GitHub Form Schema"
+  ],
+  "author": {
+    "name": "hsw1805",
+    "email": "hsw1805@kookmin.ac.kr",
+    "url": "https://github.com/hsw1805/GitHub-FormSchema-Converter"
+  },
+  "contributors": [
+    "ymw0407 <yunminwo1211@gmail.com> (https://github.com/ymw0407)"
+  ],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/hsw1805/GitHub-FormSchema-Converter/issues"
