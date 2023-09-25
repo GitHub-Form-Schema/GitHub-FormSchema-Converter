@@ -31,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/hsw1805/GitHub-FormSchema-Converter/issues"
   },
-  "homepage": "https://github.com/hsw1805/GitHub-FormSchema-Converter#readme"
+  "homepage": "https://github.com/hsw1805/GitHub-FormSchema-Converter#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "type": "commonjs"
 }
