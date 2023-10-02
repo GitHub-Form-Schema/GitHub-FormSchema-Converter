@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hsw1805/GitHub-FormSchema-Converter.git"
+    "url": "git+https://github.com/GitHub-Form-Schema/GitHub-FormSchema-Converter.git"
   },
   "keywords": [
     "yaml",
@@ -20,18 +20,19 @@
     "GitHub Form Schema"
   ],
   "author": {
-    "name": "hsw1805",
+    "name": "GitHub-Form-Schema",
     "email": "hsw1805@kookmin.ac.kr",
-    "url": "https://github.com/hsw1805/GitHub-FormSchema-Converter"
+    "url": "https://github.com/GitHub-Form-Schema/GitHub-FormSchema-Converter"
   },
   "contributors": [
+    "hsw1805 <hsw1805@kookmin.ac.kr> (https://github.com/hsw1805)",
     "ymw0407 <yunminwo1211@gmail.com> (https://github.com/ymw0407)"
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/hsw1805/GitHub-FormSchema-Converter/issues"
+    "url": "https://github.com/GitHub-Form-Schema/GitHub-FormSchema-Converter/issues"
   },
-  "homepage": "https://github.com/hsw1805/GitHub-FormSchema-Converter#readme",
+  "homepage": "https://github.com/GitHub-Form-Schema/GitHub-FormSchema-Converter#readme",
   "dependencies": {
     "js-yaml": "^4.1.0"
   },
