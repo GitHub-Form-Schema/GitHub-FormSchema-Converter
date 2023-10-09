@@ -13,16 +13,45 @@ const textarea2HTML = (attributes) => {
 
 
 const dropdown2HTML = (attributes) => {
-    console.log(attributes)
+    // console.log(attributes)
     const {label, description,options}= attributes;
     return `
     <h3>${label}</h3>
     <p>${description}</p>
-    <select>
+    <select required>
     ${getList(options)}    
     </select>
     `
 }
+
+const checkboxes2HTML = (attributes) => {
+    // console.log(attributes)
+    const {label, description, options} = attributes;
+    
+    return`
+    <h3>${label}</h3>
+    <p>${description}</p>
+    <input type="checkbox" id="chkbox-id">
+    <label for="chkbox-id">
+    ${options?.map(option => {
+        return `${option.label}`
+    }) }
+    </lable>
+    `
+}
+
+const input2HMTL = (attributes) => {
+    const{label, description, placeholder, value} = attributes;
+    return `
+    <label>${label}</label>
+    <p>${description}</p>
+    <input type="text" placeholder = '${placeholder}' value = '${value}'/>
+    `
+}
+
+
+
+
 
 
 const getList = (options) => {
@@ -35,6 +64,8 @@ const getList = (options) => {
     return optionCommand;
 }
 
+
+
 const yaml2html = (yamlStr) => {
     const loadedYamls = yaml.load(yamlStr);
     
@@ -45,6 +76,12 @@ const yaml2html = (yamlStr) => {
         }
         else if(loadedYaml.type ==="dropdown"){
             res.push(dropdown2HTML(loadedYaml.attributes))
+        }
+        else if(loadedYaml.type =="checkboxes"){
+            res.push(checkboxes2HTML(loadedYaml.attributes))
+        }
+        else if(loadedYaml.type == "input"){
+            res.push(input2HMTL(loadedYaml.attributes))
         }
     });
 
