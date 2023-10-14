@@ -2,7 +2,7 @@
   "name": "github-formschema-converter",
   "version": "1.0.0",
   "description": "Convert GitHub's Form Schema to HTML",
-  "main": "index.js",
+  "main": "dist/github-formschema-converter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -36,5 +36,8 @@
   "dependencies": {
     "js-yaml": "^4.1.0"
   },
+  "files": [
+    "dist"
+  ],
   "type": "commonjs"
 }
