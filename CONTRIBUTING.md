@@ -1,4 +1,3 @@
-
 # Welcome to GitHub-FormSchema-Converter contributing guide <!-- omit in toc -->
 
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [README](https://github.com/hsw1805/GitHub-FormSchema-Converter) ✨.
@@ -42,28 +41,32 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 1. Search GitHub Pull Requests for an open or closed PR that relates to your submission. You don't want to duplicate effort.
 
 2. Fork this repository to your GitHub
-    [click to fork Open-Set-Go_server!](https://github.com/hsw1805/GitHub-FormSchema-Converter/fork)
+   [click to fork GitHub-FormSchema-Converter!](https://github.com/hsw1805/GitHub-FormSchema-Converter/fork)
 
-3. Clone your Open-Set-Go_server repository :
-    ```bash
-    git clone your-github-id/GitHub-FormSchema-Converter 
-    ```
+3. Clone your GitHub-FormSchema-Converter repository :
+
+   ```bash
+   git clone your-github-id/GitHub-FormSchema-Converter
+   ```
 
 4. Make your changes in a main branch(or feature branch):
 
 5. Commit your changes using a descriptive commit message that follows our commit message conventions. Adherence to these conventions is necessary because release notes are automatically generated from these messages.
-    ```bash
-    git commit -a -s 
-    # -s is an option to sign-off your code, and we recommend to use it!
-    ```
-    Note: the optional commit -a command line option will automatically "add" and "rm" edited files.
+
+   ```bash
+   git commit -a -s
+   # -s is an option to sign-off your code, and we recommend to use it!
+   ```
+
+   Note: the optional commit -a command line option will automatically "add" and "rm" edited files.
 
 6. Push your branch to GitHub:
-    ```bash
-    git push
-    ```
 
-7. In GitHub, send a pull request to GitHub-FormSchema-Converter:main or GitHub-FormSchema-Converter:feature/* .
+   ```bash
+   git push
+   ```
+
+7. In GitHub, send a pull request to GitHub-FormSchema-Converter:main or GitHub-FormSchema-Converter:feature/\* .
 
 <br>
 
